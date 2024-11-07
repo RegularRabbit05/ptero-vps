@@ -16,6 +16,8 @@ if [ "$PWD" = "/root"* ]; then
     DIR="~${PWD#/root}"
 fi
 
+/bin/sh "/autoruns.sh"
+
 printf "\033c"
 printf "${GREEN}╭────────────────────────────────────────────────────────────────────────────────╮${NC}\n"
 printf "${GREEN}│                                                                                │${NC}\n"
