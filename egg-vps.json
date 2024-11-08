@@ -10,7 +10,7 @@
     "description": "Read: https:\/\/github.com\/ysdragon\/Pterodactyl-VPS-Egg",
     "features": null,
     "docker_images": {
-        "ghcr.io\/regularrabbit05\/nginx-vps": "ghcr.io\/regularrabbit05\/nginx-vps"
+        "ghcr.io\/regularrabbit05\/nginx-vps": "ghcr.io\/regularrabbit05\/ptero-vps"
     },
     "file_denylist": [],
     "startup": "bash \/run.sh",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
-            "container": "ghcr.io\/regularrabbit05\/nginx-vps",
+            "container": "ghcr.io\/regularrabbit05\/ptero-vps",
             "entrypoint": "bash"
         }
     },
